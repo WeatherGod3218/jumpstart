@@ -21,6 +21,14 @@ This project uses [Python](http://nodejs.org), [Flask](https://npmjs.com), SQL, 
 5. Run `flask --app . run`
 6. Results
 
+Jumpstart expects the following environment variables to be defined:
+```
+FLASK_APP=jumpstart:App
+JUMPSTART_API_KEYS=KEYS
+TZ=TIMEZONE
+SENTRY_DSN=LINK
+```
+
 ## Usage
 
 Go [here](https://jumpstart.csh.rit.edu)
