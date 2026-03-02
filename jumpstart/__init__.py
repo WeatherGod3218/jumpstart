@@ -187,7 +187,7 @@ def update_harold():
 if __name__ == '__main__':
     App.run(debug=True)
 
-@app.route('/showerthoughts', methods=['GET'])
+'''@app.route('/showerthoughts', methods=['GET'])
 @limiter.limit("3/minute")
 @limiter.limit("1/second")
 def showerthoughts():
@@ -199,4 +199,4 @@ def showerthoughts():
     shower_thoughts = textwrap.fill((random.choice(reddit['data']['children'])['data']['title']), 50)
     censored_st = pf.censor(shower_thoughts)
     s_t = {'data': censored_st}
-    return jsonify(s_t)
+    return jsonify(s_t)'''

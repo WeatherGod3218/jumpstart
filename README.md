@@ -20,10 +20,10 @@ This project uses [Python](http://nodejs.org), [Flask](https://npmjs.com), SQL, 
 
 Jumpstart expects the following environment variables to be defined:
 ```
-FLASK_APP=jumpstart:App
+FLASK_APP=jumpstart:app
 JUMPSTART_API_KEYS=KEYS
 TZ=TIMEZONE
-SENTRY_DSN=LINK
+SENTRY_DSN=LINKe
 ```
 ## Docker
 
