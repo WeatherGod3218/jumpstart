@@ -1,0 +1,15 @@
+---
+
+services:
+  jumpstart:
+    build: .
+    container_name: jumpstart
+    ports:
+      - "8000:8000"
+    environment:
+      - FLASK_APP=${FLASK_APP}
+      - JUMPSTART_API_KEYS=${JUMPSTART_API}
+      - TZ=${TZ}
+      - SENTRY_DSN=${SENTRY_DSN}
+    volumes:
+      - ./secrets:/usr/local/jumpstart/secrets

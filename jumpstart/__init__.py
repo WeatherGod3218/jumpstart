@@ -103,7 +103,6 @@ def index():
 @limiter.limit("3/minute")
 @limiter.limit("1/second")
 def calendar():
-
     # Call the Calendar API
     now = datetime.now(timezone.utc or pytz.utc)
     events_result = calendar_service.events().list(

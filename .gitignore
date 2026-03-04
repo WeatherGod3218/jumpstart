@@ -2,6 +2,7 @@
 # Edit at https://www.gitignore.io/?templates=macos,python
 
 # APPLICATION
+config.py
 site.db
 /secrets
 
@@ -105,7 +106,7 @@ target/
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   having no se-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
